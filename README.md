@@ -1,1 +1,1 @@
-# odin-recipes
+# Creating a basic website with links from index to a handful of recipes on isolated pages that then link back to index plus other pages
