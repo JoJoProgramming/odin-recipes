@@ -1,0 +1,66 @@
+body
+{
+    background: #00252a;
+}
+.title-box
+{
+    display: flex;
+    background: Black;
+    border: white solid 2px;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    width: 500px;
+    height: 75px;
+    margin-left: 200px;
+}
+
+.button-container
+{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    border: #00dfff dotted 2px;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 500px;
+    height: 75px;
+    transition: all 0.5s;
+}
+
+.button-lasagna,
+.button-sandwich,
+.button-tacos
+{
+    flex: 1 1 40%;
+    font-size: 25px;
+    margin: 5px;
+    box-shadow: 5px 5px 2px .02px black;
+    color: #00252a;
+    background: #00aa6d;
+}
+
+button:hover
+{
+    color: black;
+    font-weight: bold;
+    background: #00ffba;
+    cursor: pointer;
+}
+
+.button-lasagna:hover
+{
+    padding-right: 40px;
+    padding-left: 33px;
+}
+.button-tacos:hover
+{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.button-sandwich:hover
+{
+    padding-right:33px;
+    padding-left: 40px;
+}
+
